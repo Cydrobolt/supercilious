@@ -21,7 +21,7 @@ function generateStupidName(){
     var middle = randomMiddle();
     noun2 = noun2.substr(0, 1).toUpperCase() + noun2.substr(1);
     var adjective = randomAdjective();
-    return adjective + middle +noun1 + ' ' + noun2;
+    return adjective + ' '+middle+' ' +noun1 + ' ' + noun2;
 }
 
 $(window).bind("load", function() {
